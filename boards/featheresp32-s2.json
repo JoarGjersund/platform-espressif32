@@ -11,7 +11,10 @@
     "variant": "esp32s2"
   },
   "connectivity": [
-    "wifi"
+    "wifi",
+    "bluetooth",
+    "ethernet",
+    "can"
   ],
   "debug": {
     "openocd_target": "esp32s2.cfg"
